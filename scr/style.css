@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin-top: 200px;
+
+}
+
+.fullWrap{
+    background-color: rgb(11, 10, 11);
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px 90px 70px;
+    display: block;
+    text-align: center;
+    border-radius: 50px 20px;
+    box-shadow: 4px 5px 20px 0px rgba(0,0,0,0.75); 
+    border: 10px solid #fff;
+}
+
+.mainTitleSpace{
+   border-radius: 30px;
+    
+}
+
+.firstRow, .secondRow, .thirdRow, .fourthRow, .fifthRow{
+    font-size: 100px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.one, .two, .three, .equal, .four, .five, .six, .seven, .eight, .nine, .add, .subtract, .divide, .multiply, .clear, .zero, .period{
+    font-size: 60px;
+   border-radius: 100px;
+  
+}
+
+ .add, .subtract, .divide, .multiply, .equal{
+    color: rgb(250, 172, 26);
+ }
+.mainTitleSpace, .one, .two, .three, .equal, .four, .five, .six, .seven, .eight, .nine, .add, .subtract, .divide, .multiply, .clear, .zero, .period{
+ border: 3px solid purple;
+ background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(49, 49, 49, 0.5) 100%);
+}
+
+.num1, .num2, .one, .two, .three, .equal, .four, .five, .six, .seven, .eight, .nine, .clear, .zero, .period {
+ color: #fff;
+}
+.companyName{
+    margin-top: 40px;
+    color: purple;
+    font-size: 30px;
+}
